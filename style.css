@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(202, 160, 104);
+    color: azure;
+}
+hi {
+    color: aqua;
+    font-size: large;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+p {
+    color: darkkhaki;
+    font-size: medium;
+}
+ul {
+    
+    list-style-type: lower-alpha;
+    
+}
+ol {
+    list-style-type: upper-roman;
+}
+.pp {
+    color: rgba(109, 10, 120, 0.342);
+}
+.intro-list >li{
+    color: rgba(109, 10, 120, 0.342);
+}
+a:visited{
+    color: rgba(6, 0, 185, 0.342);
+}
+a:hover{
+    color: rgba(253, 0, 0, 0.342);
+}
