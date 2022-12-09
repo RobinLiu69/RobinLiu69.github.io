@@ -1,0 +1,219 @@
+<html>
+  <script>
+    var i=0;
+    
+    function myFunction() {
+      i=i+1;
+      if (i==1){
+        document.getElementById("demo").innerHTML = "you clicked me!";
+      }
+      if (i==2){
+        document.getElementById("demo").innerHTML = "you clicked me again!?!";
+      }
+      if (i==3){
+        document.getElementById("demo").innerHTML = "stop!";
+      }
+      if (i==4){
+        document.getElementById("demo").innerHTML = "STOP!!";
+      }
+      if (i==5){
+        document.getElementById("demo").innerHTML = "I SAID STOP!!!!";
+      }
+      if (i==6){
+        document.getElementById("demo").innerHTML = "STOP USING YOUR MOUSE TO CLICK ME!";
+      }
+      if (i==7){
+        document.getElementById("demo").innerHTML = "F**K!";
+      }
+      if (i==8){
+        document.getElementById("demo").innerHTML = "YOU IDIOT!";
+      }
+      if (i==9){
+        document.getElementById("demo").innerHTML = "...";
+      }
+      if (i==10){
+        document.getElementById("demo").innerHTML = "FINE...";
+      }
+      if (i==11){
+        document.getElementById("demo").innerHTML = "...";
+      }
+      if (i==20){
+        document.getElementById("demo").innerHTML = "JUST STOP...PLEASE";
+      }
+      if (i==21){
+        document.getElementById("demo").innerHTML = "ho...";
+        document.getElementById("titlee").innerHTML = "HORRIBLE WEBSITE";
+        document.body.style.background = "darkred";
+        document.getElementById("pii").src = "";
+      }
+      if (i==22){
+        document.getElementById("demo").innerHTML = "";
+        document.getElementById("horr").innerHTML = "HORRIBLE WEBSITE";
+
+        let text = "";
+          for (let i = 0; i < 100; i++) {
+            text += "FOOLGUY" + "<br>";
+          }
+        document.getElementById("horr").innerHTML = text;
+      }
+      console.log('The value of i is ' + i);
+    }
+    var o=0;
+    function myFunction2() {
+      o = Math.floor(Math.random() * 4) + 1;
+      if (o==1) {
+        document.getElementById("demo2").innerHTML = "你出石頭......我出布==>你輸了";
+
+      }
+      if (o==2) {
+        document.getElementById("demo2").innerHTML = "你出布......我出剪刀==>你輸了";
+
+      }
+      if (o==3) {
+        document.getElementById("demo2").innerHTML = "你出剪刀......我出石頭==>你輸了";
+
+      }
+      if (o==4) {
+        document.getElementById("demo2").innerHTML = "神奇彩蛋2{0010}";
+
+      }
+      console.log('The value of o is ' + o);
+    }
+    </script>
+  <head>
+    <title id="titlee">Wonderful Website</title>
+  </head>
+  <body bgcolor="lightgray" id="horr">
+    <style type="text/css">
+      head{
+
+        color: aqua;
+
+      }
+      #BoxText1 {
+      border:5px orange solid;
+      
+      padding:10px;
+      width:500px;
+      margin:15px 0px;
+      }
+      #BoxText2 {
+      border:3.5px gray dashed;
+      padding:6px;
+      width:485px;
+      background-color:#7ed0e7;
+      }
+      #pii{
+        width:200px;
+      }
+    </style>
+
+    <h1>
+      <img id="pii" src="blue-bird.jpg" title="神奇彩蛋1{0101}">
+    </h1>
+    <span style="border:5px rgb(5, 20, 147) double;">我是籃鳥</span><p id="demo2" onclick="myFunction2()">來玩石頭布（點我）</p>
+    <div align="right"></div>
+    <p>
+      <div id="BoxText1">
+        <span style="border:5px red dashed;size: 10px;">自我介紹</span><button onclick="alert('神奇彩蛋3{0000}')" style="border:5px lightgray dashed;color: rgb(236, 236, 236);background-color: lightgray;">隱藏的按鈕</button>
+        <br>
+        <style type="text/css">
+          #to:hover {
+          text-decoration:none;
+          background-color:gray;
+          color:#aee987;
+          
+          }
+          </style><br>
+        <br>我是個熱衷於學習python的初學者，夢想是有一個自己的AI
+          <div id="BoxText2" align="left">興趣：<br>看youtube學東東<br>游泳<div id="to" style="color: #7ed0e7 ;">神奇彩蛋4{0001}</div>玩遊戲:minecraft<br>寫程式:c++,python,lua
+          </div>
+          <style type="text/css">
+          a:visited {
+          color:#c99806;
+          background-color:red;
+          }
+          a:hover {
+          text-decoration:underline;
+          background-color:gray;
+          color:#aee987;
+          }
+          a:active {
+          text-decoration:none;
+          background-color:gray;
+          color:#aee987;
+          }
+          </style><br>
+          <script>
+            var ps1=0,ps2=0,ps3=0,ps4=0,ps5=0;
+            function password1(){
+              ps1=ps1+1;
+              if (ps1==10){
+                ps1=0;
+              }
+              document.getElementById("pss1").innerHTML = ps1;
+            }
+            function password2(){
+              ps2=ps2+1;
+              if (ps2==10){
+                ps2=0;
+              }
+              document.getElementById("pss2").innerHTML = ps2;
+
+            }
+            function password3(){
+              ps3=ps3+1;
+              if (ps3==10){
+                ps3=0;
+              }
+              document.getElementById("pss3").innerHTML = ps3;
+
+            }
+            function password4(){
+              ps4=ps4+1;
+              if (ps4==10){
+                ps4=0;
+              }
+              document.getElementById("pss4").innerHTML = ps4;
+
+            }
+            function password5(){
+              ps5=ps5+1;
+              if (ps5==10){
+                ps5=0;
+              }
+              document.getElementById("pss5").innerHTML = ps5;
+            }
+            function enterr(){
+              if (ps1==5 && ps2==2 && ps3==0 && ps4==1 && ps5==7){
+                document.getElementById("enter").innerHTML = "CORRECT";
+              }
+              else{
+                document.getElementById("enter").innerHTML = "enter:WRONG";
+              }
+            }
+
+
+          </script>
+          <span style="border:3px rgb(219, 84, 163) dashed;color: blue;">超連結分享</span><br>
+          <a href="https://github.com/RobinLiu69">RobinLiu69-gitbub--不知道分享這個有啥用--</a><br>
+          <a href="https://www.youtube.com/channel/UCOiE19Al_LHFyRi_KW3njVA">RobinLiu69-youtube--基本報廢--</a><br>
+          <a href="https://en.wikipedia.org/wiki/Special:Random">隨機維基百科</a><br>
+          <a href="https://jcw87.github.io/c2-sans-fight/">Bad Time Simulator</a><br>
+          <a href="js/mains.html">________</a><p id="demo" onclick="myFunction()">Dont click me</p>
+          <p id="pss1" onclick="password1()">password1</p>
+          <p id="pss2" onclick="password2()">password2</p>
+          <p id="pss3" onclick="password3()">password3</p>
+          <p id="pss4" onclick="password4()">password4</p>
+          <p id="pss5" onclick="password5()">password5</p>
+
+          <p id="enter" onclick="enterr()">ENTER</p>
+          
+          
+        </div>
+    </p>
+      
+    <div align="center"></div>
+    <div align="justify"></div>
+  </body>
+</html>
